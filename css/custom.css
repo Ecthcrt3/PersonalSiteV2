@@ -26,7 +26,8 @@ main {
     text-align: center;
     background-color: rgba(237, 233, 233, 0.9);
     border-radius: 20px;
-    min-height: 30vh
+    min-height: 30vh;
+    position: relative;
 }
 
 .sectionImage {
@@ -51,6 +52,21 @@ main {
 
 .sectionContainer iframe{
     height: 90vh;
+}
+
+.btn {
+    margin: 5px;
+    border-radius: 10px;
+}
+
+
+
+.construction {
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
