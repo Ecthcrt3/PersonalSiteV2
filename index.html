@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal portfolio site to show display Coding capabilities">
+        <meta name="author" content="Gene Cathcart">
+        
+        <!-- Bootstrap stylesheet -->
+        <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+
+
+        <!-- Bootstrap Icon CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+        <!-- Bootswatch themed stylesheet from https://bootswatch.com -->
+        <link rel="stylesheet" href="css/vendor/yeti.min.css" id="theme">
+
+        <!-- Custom stylesheet -->
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a href="/" class="navbar-brand">Gene Cathcart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">&#9776;</button>
+
+            <div class="collapse navbar-collapse justify-content-evenly" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#portfolio" class="nav-link">portfolio</a> 
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a href="#links" class="nav-link">links</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#contact" class="nav-link">contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <a href="#"><i class="bi bi-github navbar-brand"></i></a>
+                <a href="#"><i class="bi bi-twitter navbar-brand"></i></a>
+                <a href="#"><i class="bi bi-instagram navbar-brand"></i></a>
+                <a href="#"><i class="bi bi-linkedin navbar-brand"></i></a>
+            </div>
+        </nav>
+
+        <main>
+            <div class="p-4">
+
+                <div class="sectionContainer container my-5" id="about">
+                    <section class="m-2 row">
+                        <h1>About</h1>
+                        <hr>
+                        <div class="col-md-3 sectionImage">
+                        <img src="/assets/Gene.jpg" alt="me" class=".sectionImage">
+                        </div>
+                        <div class="col-md-9 sectionText">
+                            <p class="m-2 p-1">
+                                I am a Full Stack Web Developer that is currently attending Centriq Training to learn the principles of modern web design.  I have been coding for 10 years and have been trained in the use of HTML, CSS, JavaScript, C#, Java, and SQL.  It is my goal to join the world of video game development and to work on an MMO. I currently work as an IT support technician and have a passion for working with computers.  
+                                <br>
+                                <br>
+                                <br>
+                                <span style="float: right;"> ~Gene Cathcart</span>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="sectionContainer container my-5" id="portfolio">
+                    <h1>Portfolio Projects</h1>
+                    <hr>
+                    <table id="projectsTable" class="table table-light table-bordered table-striped t-5">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Languages</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Dungeon App</td>
+                                <td>C#</td>
+                                <td><a href="https://github.com/Ecthcrt3/DungeonApp" target="_blank" rel="noreferrer">Github</a></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Static Personal Site</td>
+                                <td>HTML, CSS, JavaScript</td>
+                                <td><a href="https://github.com/Ecthcrt3/DungeonApp" target="_blank" rel="noreferrer">Github</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Storefront</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>ToDo API</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>React ToDo</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>SAT</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+
+        <!-- jQuery Base Library -->
+        <script src="/js/vendor/jquery-3.6.0.min.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+    </body>
+
+</html>
