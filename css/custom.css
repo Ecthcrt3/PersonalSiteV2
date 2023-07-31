@@ -69,5 +69,23 @@ main {
     transform: translate(-50%, -50%);
 }
 
+.card.classmates{
+    flex-direction: row;
+    border-radius: 15px;
+    padding: 0;
+    margin: 5px;
+}
+
+.card-img-left {
+    width: 35%;
+    border-radius: 15px 0px 0px 15px;
+    max-block-size: 200px;
+}
+
+.card {
+    border-radius: 15px;
+    margin: 5px;
+}
+
 
 

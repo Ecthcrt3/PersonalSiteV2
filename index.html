@@ -6,6 +6,9 @@
     <meta name="description" content="Personal portfolio site to show display Coding capabilities" />
     <meta name="author" content="Gene Cathcart" />
 
+    <!-- link to favicon -->
+    <link rel="icon" type="image/x-icon" href="GC-Favicon.ico" />
+
     <!-- Bootstrap stylesheet -->
     <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
 
@@ -22,11 +25,11 @@
     <link rel="stylesheet" href="css/custom.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top justify-content-evenly ">
       <a href="/" class="navbar-brand">Gene Cathcart</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">&#9776;</button>
 
-      <div class="collapse navbar-collapse justify-content-evenly" id="navbarCollapse">
+      <div class="collapse navbar-collapse justify-content-evenly text-center" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a href="#about" class="nav-link">About</a>
@@ -42,7 +45,7 @@
             <div class="dropdown-menu">
               <a href="#classmates" class="dropdown-item">Centriq Classmates</a>
               <a href="#code" class="dropdown-item">Coding Help</a>
-              <a href="#resources" class="dropdown-item">Useful Resources</a>
+              <!-- <a href="#resources" class="dropdown-item">Useful Resources</a> -->
             </div>
           </li>
           <li class="nav-item">
@@ -52,10 +55,8 @@
       </div>
 
       <div>
-        <a href="#"><i class="bi bi-github navbar-brand"></i></a>
-        <a href="#"><i class="bi bi-twitter navbar-brand"></i></a>
-        <a href="#"><i class="bi bi-instagram navbar-brand"></i></a>
-        <a href="#"><i class="bi bi-linkedin navbar-brand"></i></a>
+        <a href="https://github.com/Ecthcrt3" target="_blank" rel="noreferrer"><i class="bi bi-github navbar-brand"></i></a>
+        <a href="https://www.linkedin.com/in/genecathcart/" target="_blank" rel="noreferrer"><i class="bi bi-linkedin navbar-brand"></i></a>
       </div>
     </nav>
 
@@ -83,9 +84,9 @@
           </section>
         </div>
 
-        <br />
+        <br id="portfolio" />
 
-        <div class="sectionContainer my-5" id="resume">
+        <div class="sectionContainer my-5">
           <secition class="m-2 row justify-content-center">
             <h1>Portfolio Projects</h1>
             <hr />
@@ -140,9 +141,9 @@
           </secition>
         </div>
 
-        <br />
+        <br id="resume" />
 
-        <div class="sectionContainer my-5" id="portfolio">
+        <div class="sectionContainer my-5">
           <secition class="m-2 row justify-content-center">
             <h1>Resume</h1>
             <hr />
@@ -150,38 +151,259 @@
           </secition>
         </div>
 
-        <div class="sectionContainer my-5" id="links">
+        <br />
+
+        <div class="sectionContainer my-5">
           <secition class="m-2 row justify-content-center">
             <h1>Useful Links</h1>
             <hr />
             <div class="row">
               <article class="beefup m-1" id="classmates">
                 <h4 class="beefup__head text-light">Centriq Classmates</h4>
-                <div class="beefup__body">insert cards here</div>
+                <div class="beefup__body">
+                  <div class="row justify-content-evenly">
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="" alt="Dan Ambro Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Dan Ambro</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="" target="_blank"></a>
+                          <br />
+                          <br />
+                          <a href="#">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="" alt="Zoey Bateman Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Zoey Bateman</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="" target="_blank"></a>
+                          <br />
+                          <br />
+                          <a href="#">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="/assets/Corbin-Brown-Profile.jpg" alt="Corbin Brown Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Corbin Brown</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="http://corbin-brown.com/" target="_blank">corbin-brown.com</a>
+                          <br />
+                          <br />
+                          <a href="https://www.linkedin.com/in/corbin-brown-2b93221b1/" target="_blank" rel="noreferrer">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="" alt="Alex Davenport Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Alex Davenport</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="" target="_blank"></a>
+                          <br />
+                          <br />
+                          <a href="#">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="/assets/Colson-Donner-Profile.jpg" alt="Colson Donner Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Colson Donner</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="http://colsondonnerdev.com/" target="_blank">colsondonnerdev.com</a>
+                          <br />
+                          <br />
+                          <a href="https://www.linkedin.com/in/colson-donner-60a803244/" target="_blank" rel="noreferrer">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="/assets/Chanel-Dubreuil-profile.jpg" alt="Chanel Dubreuil Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Chanel Dubreuil</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="http://www.chaneldubreuil.com " target="_blank">chaneldubreuil.com </a>
+                          <br />
+                          <br />
+                          <a href="https://www.linkedin.com/in/chanel-dubreuil-1a3393285/" target="_blank" rel="noreferrer">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="" alt="Alex Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Alex Erdrich</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="" target="_blank"></a>
+                          <br />
+                          <br />
+                          <a href="#">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="assets/Robert-Eyre-Profile.jpg" alt="Robert Eyre Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Robert Eyre</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="http://www.roberteyre.com/" target="_blank">roberteyre.com/</a>
+                          <br />
+                          <br />
+                          <a href="#">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="" alt="Aidan McQuillan Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Aidan McQuillan</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="" target="_blank"></a>
+                          <br />
+                          <br />
+                          <a href="#">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="" alt="Christopher Randall Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Christopher Randall</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="" target="_blank"></a>
+                          <br />
+                          <br />
+                          <a href="#">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="" alt="Paul Valenti Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Paul Valenti</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="" target="_blank"></a>
+                          <br />
+                          <br />
+                          <a href="#">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="" alt="Alicia Villegas Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">Alicia Villegas</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="" target="_blank"></a>
+                          <br />
+                          <br />
+                          <a href="#">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 card classmates">
+                      <img src="/assets/William-Watts-Profile.jpg" alt="William Watts Profile picture" class="card-img-left" />
+                      <div class="card-body">
+                        <h5 class="card-title">William Watts</h5>
+                        <hr />
+                        <p class="card-text">
+                          <a href="http://williamdwatts.com" target="_blank">williamdwatts.com</a>
+                          <br />
+                          <br />
+                          <a href="https://www.linkedin.com/in/william-watts-09a57625b/" target="_blank" rel="noreferrer">LinkedIn</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </article>
               <article class="beefup m-1" id="code">
                 <h4 class="beefup__head text-light">Code Help</h4>
-                <div class="beefup__body">insert cards here</div>
+                <div class="beefup__body row justify-content-evenly">
+                  <div class="card col-sm-12 col-md-3">
+                    <img src="/assets/W3Schools_logo.png" alt="w3 schools logo" class="card-img-top" />
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="https://www.w3schools.com" target="_blank" rel="noreferrer">w3schools</a></h5>
+                      <p class="card-text">
+                        This is a fantastic online coding toturial site. It has many toturials that cover many different topics and
+                        languages
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="card col-sm-12 col-md-3">
+                    <img src="/assets/bootstrap.png" alt="bootstrap logo" class="card-img-top" />
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="https://www.getbootstrap.com" target="_blank" rel="noreferrer">getbootstrap</a></h5>
+                      <p class="card-text">
+                        This is the main site for Bootstrap. Here you can download the needed files to use bootstrap and find toturials on
+                        how to use various Bootstrap classes
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="card col-sm-12 col-md-3">
+                    <img src="/assets/900px-HackerRank_Icon-1000px.png" alt="HackerRank logo" class="card-img-top" />
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="https://www.hackerrank.com" target="_blank" rel="noreferrer">hackerrank</a></h5>
+                      <p class="card-text">
+                        This is a site that I persoanally use to teach myself new coding languages. They have many great training courses
+                        and fun coding challenges.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </article>
-              <article class="beefup m-1" id="resources">
+              <!-- <article class="beefup m-1" id="resources">
                 <h4 class="beefup__head text-light">Resources</h4>
                 <div class="beefup__body">insert cards here</div>
-              </article>
+              </article>-->
             </div>
           </secition>
         </div>
 
-        <div class="sectionContainer my-5" id="contact">
+        <br id="contact" />
+
+        <div class="sectionContainer my-5">
           <secition class="m-2 row justify-content-center">
             <h1>Contact Me</h1>
             <hr />
             <div class="row">
-              <img src="/assets/pngfind.com-under-construction-png-79122.png" alt="Under construction" class="construction">
+              <img src="/assets/pngfind.com-under-construction-png-79122.png" alt="Under construction" class="construction" />
               <form>
                 <div class="form-group">
-                  <input type="text" class="form-control" id="firstNameInput" placeholder="First Name:">
-                  <input type="text" class="form-control" id="lastNameInput" placeholder="Last Name:">
-                  <input type="email" class="form-control" id="emailInput" placeholder="Email:">
+                  <input type="text" class="form-control" id="firstNameInput" placeholder="First Name:" />
+                  <input type="text" class="form-control" id="lastNameInput" placeholder="Last Name:" />
+                  <input type="email" class="form-control" id="emailInput" placeholder="Email:" />
                   <textarea rows="6" type="text" class="form-control" id="emailInput" placeholder="Enter message here:"></textarea>
                   <button type="submit" class="btn btn-dark">Submit</button>
                 </div>
@@ -190,20 +412,22 @@
           </secition>
         </div>
 
-
+        <div class="sectionContainer my-5">
+          <h1>What is the next Holiday?</h1>
+          <hr />
+          <div id="holidayAPI" class="p-2"></div>
+        </div>
       </div>
       <footer class="bg-dark text-center p-3">
         <h4>&copy;Genecathcart.com 2023</h4>
       </footer>
     </main>
 
-
     <!-- jQuery Base Library -->
     <script src="/js/vendor/jquery-3.6.0.min.js"></script>
 
     <!-- jQuery Beefup JS -->
     <script src="/js/vendor/jquery.beefup.js"></script>
-
 
     <!-- Bootstrap JS -->
     <script src="js/vendor/bootstrap.min.js"></script>
